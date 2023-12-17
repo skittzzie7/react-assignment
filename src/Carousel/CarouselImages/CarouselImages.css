@@ -1,0 +1,19 @@
+.small-img {
+    display: flex;
+    width: 100vw;
+    margin: 10px 0;
+    overflow-x: scroll;
+}
+
+.small-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0 10px;
+    border: 2px solid transparent;
+}
+
+img.active {
+    border: 2px solid white;
+}
+
